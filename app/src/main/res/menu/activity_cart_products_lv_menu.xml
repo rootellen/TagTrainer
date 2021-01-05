@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/activity_cart_products_lv_menu_remove" android:title="Remover"/>
+    <item android:id="@+id/activity_cart_products_lv_menu_add" android:title="Adicionar"/>
+</menu>

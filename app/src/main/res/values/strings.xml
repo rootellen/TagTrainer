@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TagAndroid1</string>
+    <string name="finalizar_compra">Finalizar Compra</string>
+    <string name="facebook_app_id">837117620393506</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="back_to_home">Back to home</string>
+    <string name="checkout">Checkout</string>
+    <string name="price">Price:</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="cartao">Cartao</string>
+    <string name="boleto">Boleto</string>
+    <string name="payment_confirm">Payment Confirm</string>
+</resources>

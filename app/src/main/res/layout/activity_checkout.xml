@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.CheckoutActivity">
+
+    <TextView
+        android:layout_margin="18dp"
+        android:id="@+id/activity_checkout_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkout"
+        android:textAlignment="center"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/activity_checkout_total_value_tv"
+        android:text="@string/price"
+        android:layout_margin="16dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+        android:layout_margin="18dp"
+        android:id="@+id/activity_checkout_payment_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/payment_method"
+        android:textSize="28sp"
+        android:textAlignment="center" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        android:id="@+id/activity_checkout_rg"
+        >
+
+        <RadioButton
+            android:id="@+id/activity_checkout_rb_cartao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="@string/cartao" />
+
+        <RadioButton
+            android:id="@+id/activity_checkout_rb_boleto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="@string/boleto" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/activity_checkout_payment_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/payment_confirm" />
+
+</LinearLayout>
